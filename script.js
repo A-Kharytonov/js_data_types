@@ -48,4 +48,4 @@ const deposit = prompt('Ввести суму вкладу');
 // const yearInterest = deposit * 0.05;
 const totalInterest = ((deposit * 0.05 / 12) * 2).toFixed(2);
 
-alert('Вашi нарахованi вiдстотки ' + totalInterest);
+alert('Вашi нарахованi вiдстотки за два мiсяця з процентною ставкою депозиту 5% річних.  ' + totalInterest);
